@@ -37,6 +37,7 @@
     const ip = i => (p = i*15%60, `${Math.trunc(i*15/60)+8}:${p == 0 ? '00' : p}`)
 </script>
 <h1>Órarend megjelenítő</h1>
+<div class="links"><a href="cica">Elválasztó</a> &nbsp; <a href="zebra">Todo list</a></div>
 <div class = "oc">
     <div class = "or">
         <table>
@@ -60,7 +61,6 @@
                 <div class="terem">{ora.terem}</div>
             </div>
         {/each}
-        <div><a href="cica">Elválasztó</a> <a href="zebra">Todo list</a></div>
     </div>
 </div>
 <style>

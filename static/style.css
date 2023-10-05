@@ -1,5 +1,24 @@
-    body, html {
-        height: 650px;
-        max-height: 650px;
-        overflow: hidden;
-    }
+body, html {
+    user-select: none;
+    overflow: hidden;
+    background-color: rgb(245, 240, 233);
+    margin: 0px;
+}
+div.links {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: -81px;
+    width: 100%;
+}
+div.links a {
+    all: unset;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px gray;
+}
+div.links a:hover {
+    color: rgb(126, 41, 41);
+}
+div.links a:active {
+    color: rgb(45, 128, 13);
+}
