@@ -60,7 +60,7 @@
                 <div class="terem">{ora.terem}</div>
             </div>
         {/each}
-        <div></div>
+        <div><a href="cica">Elválasztó</a> <a href="zebra">Todo list</a></div>
     </div>
 </div>
 <style>
