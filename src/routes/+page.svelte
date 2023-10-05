@@ -3,39 +3,23 @@
     var orak = [{
         nap: 3,
         ipk: [8, 0],
-        it: 60,
+        it: 5*45,
         oszt: '2/14/SZFT',
         tanar: 'Dr. Németh Tamás',
         terem: '18'
     },
     {
         nap: 2,
-        ipk: [9, 0],
-        it: 90,
-        oszt: '2/14/SZFT',
-        tanar: 'Dr. Németh Tamás',
-        terem: '18'
-    },
-    {
-        nap: 1,
-        ipk: [8, 0],
-        it: 180,
-        oszt: '2/14/SZFT',
-        tanar: 'Dr. Németh Tamás',
-        terem: '18'
-    },
-    {
-        nap: 0,
-        ipk: [8, 0],
-        it: 180,
+        ipk: [9, 50],
+        it: 8*45,
         oszt: '2/14/SZFT',
         tanar: 'Dr. Németh Tamás',
         terem: '18'
     },
     {
         nap: 4,
-        ipk: [11, 0],
-        it: 180,
+        ipk: [10, 88],
+        it: 5*45,
         oszt: '2/14/SZFT',
         tanar: 'Dr. Németh Tamás',
         terem: '18'
@@ -86,6 +70,7 @@
     div.oc {
         margin: auto;
         width: 640px;
+        height: 500px;
         background-color: antiquewhite;
         border-radius: 20px;
         padding: 30px;
@@ -100,17 +85,17 @@
     td {
         height: 11px;
         width: 20%;
-        background-color: rgb(100,225,250);
-        border-radius: 5px;
-        box-shadow: 0px 0px 2px gray;
+        background-color: rgba(222, 240, 243, 0.584);
+        border-radius: 3px;
+        box-shadow: 0px 0px 7px inset rgb(124, 122, 95);
     }
     div.ora {
         position: relative;
         width: 87px;
-        background-color: rgba(30,240,220,0.4);
+        background-color: rgba(30, 240, 219, 0.306);
         border: solid 1px black;
         box-shadow: 1px 1px 3px inset black;
-        border-radius: 7px;
+        border-radius: 5px;
         text-align: center;
         padding: 10px;
     }
